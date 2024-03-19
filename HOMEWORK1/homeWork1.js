@@ -99,6 +99,11 @@ alert(`Dear User, your email is ${userEmail}, your password is ${userPassword} a
 let numberOfSecondsInMinute = 60;
 let numberOfSecondsInHour = numberOfSecondsInMinute * 60;
 let numberOfSecondsInDay = numberOfSecondsInHour * 24;
-let numberOfSecondsInMounth = numberOfSecondsInDay * 32; 
+//let numberOfSecondsInMounth = numberOfSecondsInDay * 31; 
+
+//additional case for numbers of seconds in a mounth 
+let numberOfDaysInMouth = prompt("How many days in current mounth")
+let numberOfSecondsInMounth = numberOfSecondsInDay * numberOfDaysInMouth; 
+
 
 alert(`Numbers of seconds in an hour: ${numberOfSecondsInHour} \nNumbers of seconds in a day: ${numberOfSecondsInDay} \nNumbers of seconds in a mounth: ${numberOfSecondsInMounth}`)
