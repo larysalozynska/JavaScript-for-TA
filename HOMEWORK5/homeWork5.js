@@ -1,5 +1,4 @@
 //task1
-/*
 let mentor = {
     course: "JS fundamental",
     duration: 3,
@@ -145,7 +144,6 @@ console.log('Sorted salary:');
 sortedWrksArr.forEach(worker => {
     console.log(worker.showSalaryWithExperience())
 })
-*/
 
 
 //task5
