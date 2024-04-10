@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id ='text'>I learning JavaScript events!</p>
+    <div>
+        <button onclick="changeCSS()" >Change style!</button>
+    </div>
+
+    <div>
+        <button onclick="colorPageBlue()" >Click to make the page blue</button>
+        <button ondblclick="colorPagePink()" >Double-click to make the page pink</button>
+        <button onmousedown="colorPageBrown()", onmouseleave="colorPageWhite()" >Click and hold to make the page brown</button>
+        <a href="", onmouseover="colorPageYallow()", onmouseleave="colorPageWhite()">Hower over to make page yellow</a>
+    </div>
+
+    <div>
+        <select id="dropdown">
+            <option value="option1">Peter</option>
+            <option value="option2">John</option>
+            <option value="option3">Alise</option>
+            <option value="option4">Alex</option>
+            <option value="option5">Iren</option>
+        </select>
+        <button id="drop-down-button" >Choose and Delete</button>
+    </div>
+    
+    <button id="task5">Live button!</button>
+    <div class="task5">
+    </div>
+
+    <div id="task6">
+    </div>
+
+    <div id="task7">
+        <select name="country" id="country">
+            <option value="">----</option>
+            <option value="ukr">Ukraine</option>
+            <option value="usa">USA</option>
+            <option value="aus">Australia</option>
+        </select>
+
+        <select name="cities" id="cities"></select>
+
+        <p id="citycountry"></p>
+    </div>
+
+    <script src="homeWork7.js"> </script>
+</body>
+</html>
