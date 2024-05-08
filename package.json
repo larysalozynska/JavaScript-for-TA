@@ -1,0 +1,18 @@
+{
+  "name": "javascript-for-ta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 HOMEWORK14/homeWork14.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^124.0.1",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
